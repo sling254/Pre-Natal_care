@@ -1,11 +1,13 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import MaternalRecordForm
 from django.contrib import messages
-from .models import MaternalRecord
+
 
 # Create your views here.
-
 def index(request):
+    return render(request, 'maternal_care/index.html')
+
+def record(request):
     form = MaternalRecordForm()
     if request.method == 'POST':
         form = MaternalRecordForm(request.POST)

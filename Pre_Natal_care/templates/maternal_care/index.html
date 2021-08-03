@@ -1,63 +1,69 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assests/css/index.css">
-    <title>Prenatal-care</title>
-</head>
-<body>
-  <!--Start of Navbar -->
-  <header id="home">
-        <div class="navbar">
-            <a class="logo" href="#">PichaGrapher</a>
-            <a class="active" href="#home">HOME</a>
-            <a href="#about">ABOUT US</a>
-            <a href="#about">CONTACTS</a>
-            <a href="#about">RECORDS</a>
-           
+    <head>  
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>Prenatal</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <!-- start of the about section -->
+        <div class="about-section">
+            <h1 id="h1">About us.</h1>
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class= image>
+                            <img src="{% static 'images/pregnant.jpeg' %}">
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="slogan"><h2>Best of care close to home.</h2></div>
+                        <div class="paragraph1" ><p>We are a team of medical experts to guide and help you throughout your pregnancy. We will help you keep track of your clinical appointments. We are here to remind you of all the rights of women, the greatest is to be a mother and we will ensure you and your baby are healthy.</p></div>
+                        <div class ="mission"><h2>Our Mission.</h2></div>
+                        <p id="para">Our mission is to dive into the community to facilitate access to quality maternity care.</p>
+                        <h2 class="vision">Our vision.</h2>
+                        <p id="vision">We are up to a world where all pregnant women can access safe prenatal care close to their home.</p>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
-    </header>
-  <!-- End of Navbar -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2" id="side-bar">
-                <nav class="nav flex-column">
-                    <a class="nav-link active" aria-current="page" href="#">REGISTER MOTHER</a><br>
-                    <a class="nav-link" href="#">TAKE RECORD</a><br>
-                    <a class="nav-link" href="#">VIEW RECORD</a>
-                    
-                  </nav>
-            </div>
-            <div class="col-sm-8">
-                <form class="row g-3">
-                    <div class="col-md-6">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" >
-                    </div>
-                    <div class="col-md-6">
-                    <label class="form-label">Full Name</label>
-                    <input type="text" class="form-control">
-                    </div>
-                
-                    <div class="col-md-6">
-                    <label  class="form-label">Phone Number</label>
-                    <input type="number" class="form-control">
-                    </div>
-                    
-                
-                    <div class="col-12">
-                    <button type="submit" class="btn">SAVE</button>
-                    </div>
-              </form>
-            </div>
-          </div>
-    </div>
+        <!-- End of about section -->
+        
+
+<!-- Start of the contact page -->
+        <div class="contact-form">
+            <h1 id="contact">Contact Us</h1>
+            <h2> <span class="monly">Say something, any constructive criticism is welcome </span></h2>
+    
+                <div class="form">
+                    <form action="">
+                        <label for="name">Full Name:</label></br>
+                        <input type="text" name="FULL NAME" placeholder="Enter your name...."></br>
+                        <label for="email">Email</label></br>
+                        <input type="text" name="EMAIL" placeholder="Enter your Email"></br>
+                        <label for="message">ENQUIRY</label></br>
+                        <textarea id="subject" name="ENQUIRY" placeholder="Write something.." ></textarea> </br> </br>
+                        <a href="#home" ><button style="background-color:#41DBE4" class="padd" >SEND</button></a>
+                    </form>
+                </div>
     
     
-</body>
+    
+        </div>
+<!-- end of contact page -->
+<!-- Start of the Footer -->
+        <footer>
+            
+            <p>Prenatal_care<br>
+                Copyright &copy; 2021<br> </p>
+        </footer>
+
+<!-- End of the footer -->
+    </body>
 </html>
