@@ -68,7 +68,7 @@ And navigate to `http://127.0.0.1:8000/`.
 - Email: alphonce.kipngeno@student.moringaschool.com
 
 ### License
-* see [License](https://github.com/sling254/Pre-Natal_care/blob/main/LICENSE)file
-Copyright (c) {2021
+* see [License](https://github.com/sling254/Pre-Natal_care/blob/main/LICENSE)  file
+Copyright (c) {2021}
 # Website Design
 * see [Website Design](https://www.figma.com/file/ggJJI9Gpoi28g3RF2I1UX3/prenatal%2Fmaternal-care?node-id=0%3A1) file
