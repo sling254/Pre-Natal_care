@@ -1,0 +1,1 @@
+web: gunicorn Pre_Natal_care.wsgi --log-file -
