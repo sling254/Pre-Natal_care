@@ -1,5 +1,6 @@
 # Pre-Natal_care
-#### {A website to digitize pregnancy checkups for mothers }, {Date Aug 4 2021}
+
+#### A website to digitize pregnancy checkups for mothers, {Date Aug 4 2021}
 #### **{List of contributors}**
 - Muriithi Mwaniki
 - Github -- sling254
