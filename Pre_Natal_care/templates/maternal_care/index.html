@@ -14,10 +14,14 @@
         <header >
             <div class="navbar">
                 <!-- <a class="logo" href="#"> <img src="{% static 'images/logo.jpeg' %}" alt="logo" height="90px"></a> -->
-                <a class="active" href="#home">HOME</a>
-                <a href="#about">ABOUT US</a>
-                <a href="#contact">CONTACT</a>
-                <a href="{% url 'record'%}">RECORDS</a>
+                <ul>
+                    <li><a class="active" href="#home">HOME</a> </li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li> <a href="{% url 'record'%}">RECORDS</a></li>
+                    <li style="float: right; color:red"> {{user.username}} </li>
+                </ul>
+                
             </div>
         </header>
             {% for message in messages %}
