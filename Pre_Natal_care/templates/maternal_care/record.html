@@ -15,6 +15,9 @@
     <div class="container">
         <form  method="POST" class="row g-3">
             {% csrf_token %}
+            {% for message in messages %}
+                <p class="msg">{{ message }}</p>
+            {% endfor %}
             <div class="col-md-6">
                 <h2>Basic info:</h2>
                 <label class="form-label">Email : </label>

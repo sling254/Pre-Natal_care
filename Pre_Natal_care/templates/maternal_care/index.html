@@ -9,8 +9,37 @@
         <link rel="stylesheet" href="{% static 'css/index.css' %}">
     </head>
     <body>
+        
+    <!--Start of Navbar -->
+        <header >
+            <div class="navbar">
+                <!-- <a class="logo" href="#"> <img src="{% static 'images/logo.jpeg' %}" alt="logo" height="90px"></a> -->
+                <a class="active" href="#home">HOME</a>
+                <a href="#about">ABOUT US</a>
+                <a href="#contact">CONTACT</a>
+                <a href="{% url 'record'%}">RECORDS</a>
+            </div>
+        </header>
+            {% for message in messages %}
+                <p class="msg">{{ message }}</p>
+            {% endfor %}
+        <div class="container">
+            <div class="row align-items-start">
+                <div id="words" class="col">
+                <h3>YOU NEVER UNDERSTAND LIFE UNTILL IT GROWS INSIDE OF YOU</h3>
+                    <a href="#about"><button  class="get" style="font-size:30px">GET STARTED</button></a>
+                    
+                </div>
+                <div class="col">
+                    <img src="{% static 'images/hero.jpg' %}" style="height: 85vh;" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- End of Navbar -->
         <!-- start of the about section -->
-        <div class="about-section">
+        <div id="about" class="about-section">
             <h1 id="h1">About us.</h1>
             <div class="container">
                 <div class="row align-items-start">
@@ -37,7 +66,7 @@
         
 
 <!-- Start of the contact page -->
-        <div class="contact-form">
+        <div id ="contact" class="contact-form">
             <h1 id="contact">Contact Us</h1>
             <h2> <span class="monly">Say something, any constructive criticism is welcome </span></h2>
     

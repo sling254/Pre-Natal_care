@@ -1,80 +1,55 @@
 
-/*style the contact form */
-.contact-form{
-    background-color: rgb(96, 180, 39);
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 30px;
-    right: 30px;
-    top: 30px;
-    z-index: 10;
-}
-.contact-form h1{
+/*header section */
+#words{
     text-align: center;
-}
+    font-size: 72pt;
+    font-size-adjust: 0.80;
+    margin-top: 20%;
+    font-weight: inherit;
+    font-family: 'Times New Roman', Times, serif;
 
-#contact{
-    color: #24ABE4;
-    font-weight: 200;
 }
-
-.padd{
-    border-radius: 50px;
+/*style the navbar*/
+.navbar a.active {
+    background-color: #0407aa;
+    color: white;
+  }
+.navbar {
+    background-color: rgb(8, 8, 8);
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    
+    padding: 10px 16px;
     float: right;
-    height: 30px;
-    padding: auto;
-    width: -50px;
+    color: #f2f2f2;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.navbar .logo {
+    float: left;
+}
+.logo{
+    border-radius: 50px;
+    margin-top: 2px;
+    padding-top: 1px;
+}
+button.get{
+  background-color: green;
+}
+.container{
+    background-color: white;
 }
 
-.padd:hover{
-    color: #c4051f;
-}
-
-.contact-form h2{
-    text-align: center;
-}
-.contact-form button{
-    align-items: center;
-}
-input[type=text] {
-    border: 2px solid rgb(8, 1, 1);
-    border-radius: 4px;
-    width: 90%;
-    height: 50px;
-  }
-  #subject{
-    height: 200px;
-    border: 2px solid rgb(5, 0, 0);
-    border-radius: 4px;
-    width: 90%;
-  }
-  .monly{
-      font-family: Georgia, 'Times New Roman', Times, serif;
-  }
 
   
-/*style footer*/
-
-footer{
-    text-align: center;
-    padding: 3px;
-    background-color: #24ABE4;
-    color: white;
-    margin-top: 10px;
-    width: 300;
-    height: 200;
-}
-
-#cmon{
-  float: left;
-  border-radius: 50px;
-  margin-top: 2px;
-  padding-top: 1px;
-}
-
-/*stlye the about section*/
-.about-section h1{
+  /*stlye the about section*/
+  .about-section h1{
     text-align: center;
     margin-bottom: 90px;
     font-size: 48px;
@@ -83,13 +58,14 @@ footer{
     font-family:'Times New Roman', Times, serif;
     color: #000000;
    
-}
-.about-section{
-
+  }
+  .about-section{
+  
     background: white;
-    background-color: #41DBE4;;
-}
-.slogan{
+    background-color: #41DBE4;
+    margin-top: 10px;
+  }
+  .slogan{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
@@ -97,8 +73,8 @@ footer{
     font-size: 24px;
     color: #000000;
     text-transform: capitalize;
-}
-.mission {
+  }
+  .mission {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-style: normal;
@@ -107,8 +83,8 @@ footer{
     text-transform: uppercase;
     color: #000000;
     
-}
-.paragraph1{
+  }
+  .paragraph1{
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
@@ -123,7 +99,7 @@ footer{
         font-size: 24px;  
         color: #000000;
         }
-.vision{
+  .vision{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-style: normal;
@@ -131,25 +107,25 @@ footer{
     font-size: 24px;
     text-transform: uppercase;
     color: #000000;
-}
-#vision{
-font-family: 'Times New Roman', Times, serif;
-font-style: normal;
-font-size: 24px;
-font-weight: normal;
-color: #000000;
-}
-img{
+  }
+  #vision{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  }
+  img{
     height:700px;
     width: 600px;
-}
-
-
-
-
-/*style the buttons */
-.btn{
- 
+  }
+  
+  
+  
+  
+  /*style the buttons */
+  .btn{
+  
     border-radius: 20%;
     background-color: #41E465;
     border: none;
@@ -162,39 +138,40 @@ img{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
-}
-
-.container{
+  }
+  
+  .container{
     background-color: #41DBE4;
     margin-top: 40px;
-}
-
-#side-bar{
+  }
+  
+  #side-bar{
     border-style: solid;
     height: 70vh;
-}
-
-
-
-
-/*login page*/
-body {font-family: Arial, Helvetica, sans-serif;}
-
-.container-login{
+  }
+  
+  
+  
+  
+  /*login page*/
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .container-login{
     margin-right: 40%;
     margin-left: 40%;
-}
-
-.input {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.button-login {
+  }
+  
+  .input {
+    height: 90%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .button-login {
   background-color: #41E465;
   color: white;
   padding: 14px 20px;
@@ -202,28 +179,101 @@ body {font-family: Arial, Helvetica, sans-serif;}
   border: none;
   cursor: pointer;
   width: 100%;
-}
-
-button:hover {
+  }
+  
+  button:hover {
   opacity: 0.8;
-}
-
-.cancelbtn {
+  }
+  
+  .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #FF0000;
-}
+  background-color: red;
+  }
 
 
-
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+/*style the contact form */
+.contact-form{
+    background-color: rgb(96, 180, 39);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    right: 30px;
+    top: 30px;
+    z-index: 10;
+  }
+  .contact-form h1{
+    text-align: center;
+  }
+  
+  #contact{
+    color: #24ABE4;
+    font-weight: 200;
+  }
+  
+  .padd{
+    border-radius: 50px;
+    float: right;
+    height: 30px;
+    padding: auto;
+    width: -50px;
+  }
+  
+  .padd:hover{
+    color: #c4051f;
+  }
+  
+  .contact-form h2{
+    text-align: center;
+  }
+  .contact-form button{
+    align-items: center;
+  }
+  input[type=text] {
+    border: 2px solid rgb(8, 1, 1);
+    border-radius: 4px;
+    width: 90%;
+    height: 50px;
+  }
+  #subject{
+    height: 200px;
+    border: 2px solid rgb(5, 0, 0);
+    border-radius: 4px;
+    width: 90%;
+  }
+  .monly{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  /*style footer*/
+  
+  footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #24ABE4;
+    color: white;
+    margin-top: 10px;
+    width: 300;
+    height: 200;
+  }
+  
+  #cmon{
+  float: left;
+  border-radius: 50px;
+  margin-top: 2px;
+  padding-top: 1px;
+  }
+  .msg{
+      text-align: center;
+      color: black;
+      text-decoration: underline;
+      
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
   span.psw {
      display: block;
      float: none;
@@ -231,6 +281,5 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
-}
-
+  }
 

@@ -11,8 +11,7 @@ def index(request):
 
 
 
-
-@login_required
+@login_required(login_url='login')
 def record(request):
     form = MaternalRecordForm()
     if request.method == 'POST':
