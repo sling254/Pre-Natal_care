@@ -1,6 +1,6 @@
 # Pre-Natal_care
 #### {A website to digitize pregnancy checkups for mothers }, {Date Aug 4 2021}
-####**{List of contributors}**
+#### **{List of contributors}**
 - Muriithi Mwaniki
 - Github -- sling254
 - Dan Muhadi
@@ -62,10 +62,10 @@ And navigate to `http://127.0.0.1:8000/`.
 
 ## Support and contact details
 ### If  you have any issues, questions, ideas or concerns, feel free to contact us.
-. Email: muriithi.mwaniki@student.moringaschool.com.
-.Email: dancun.wawire@student.moringaschool.com
-.Email: nancy.muriithi@student.moringascool.com
-.Email: alphonce.kipngeno@student.moringaschool.com
+- Email: muriithi.mwaniki@student.moringaschool.com.
+- Email: dancun.wawire@student.moringaschool.com
+- Email: nancy.muriithi@student.moringascool.com
+- Email: alphonce.kipngeno@student.moringaschool.com
 
 ### License
 * see .[License].(https://github.com/sling254/Pre-Natal_care/blob/main/LICENSE)file
