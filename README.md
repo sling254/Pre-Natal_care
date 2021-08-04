@@ -8,7 +8,7 @@
 - Alphonce Kipngeno
 - Github -- kips-alih
 - Nancy Muriithi
--- Github -- nancy-codergirl
+- Github -- nancy-codergirl
 ## Description
 This is a website meant to walk with women in their pregnancy journey. All mother's vists are digitally  captured for easy retrival and tracking. 
 A mother can also register and get her records which makes easier for her to track her own progress in her pregnancy period
